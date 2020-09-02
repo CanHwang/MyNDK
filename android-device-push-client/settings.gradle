@@ -1,0 +1,4 @@
+include ':app',':android-common', ':device-push-client'
+rootProject.name='DevicePushApp'
+
+project(':android-common').projectDir = new File('android-common/android-common')

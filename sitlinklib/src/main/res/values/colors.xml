@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="blue">#0000FF</color>
+    <color name="btn2">#26C441</color>
+    <color name="btn_tv">#01AE32</color>
+    <color name="btn_tv2">#a8a2a2</color>
+
+    <color name="btn_start">#01AE32</color>
+    <color name="btn_end">#26C441</color>
+    <color name="btn1">#26C441</color>
+    <color name="flight_bg2">#EFE1DE</color>
+    <color name="wifi">#00B093</color>
+</resources>

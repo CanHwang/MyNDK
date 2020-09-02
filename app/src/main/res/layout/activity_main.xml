@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="执行短距离校准（3-5秒）遮挡物10cm"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="duanjuli"
+        android:text="左侧短距离校准" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="再点击长距离校准遮挡物40cm"
+        />
+    <Button
+        android:id="@+id/longjiaozhun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="changjuli"
+        android:text="左侧长距离校准" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="校准后开启传感"
+        />
+    <TextView
+        android:id="@+id/proxsensor_left"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

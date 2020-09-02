@@ -1,0 +1,2 @@
+include ':app', ':android-common', ':device-push-client'
+rootProject.name='MyNDK'
